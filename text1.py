@@ -6,8 +6,9 @@
 
 import time
 
+i = 1
 while True:
-    time.sleep(1)
-    print("hello")
-
-
+    if i < 100:
+        print(i)
+        i += 1
+    time.sleep(0.1)

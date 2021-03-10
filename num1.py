@@ -5,6 +5,7 @@
 # @Softwore: PyCharm
 
 import time
+import bs4
 
 i = 1
 while True:
